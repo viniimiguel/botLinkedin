@@ -35,12 +35,15 @@ int main()
         executarAcao([&]() { b1->likeSeguir(); });
         break;
     case 4:
+        b1->rede();
         executarAcao([&]() { b1->conexoes(); });
         break;
     case 5:
+        b1->rede();
         executarAcao([&]() { b1->participar(); });
         break;
     case 6:
+        b1->rede();
         executarAcao([&]() { b1->redeSeguir(); });
         break;
     default:
